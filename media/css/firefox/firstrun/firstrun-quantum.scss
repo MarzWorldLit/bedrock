@@ -27,10 +27,6 @@ $mq-medium: 'screen and (min-width: 790px) and (min-height: 550px)';
          url('/media/fonts/FiraSans-SemiBold.woff') format('woff');
 }
 
-:root {
-    --animation-curve: linear;
-}
-
 html {
     height: 100%;
 }
@@ -174,16 +170,13 @@ body {
         }
     }
 
-    p {
-        background: url('/media/img/firefox/firstrun/sync/sync-devices-icons-anim.svg') bottom center no-repeat;
-        padding-bottom: 210px;
-    }
-
     .content {
         @include font-size(19px);
+        background: url('/media/img/firefox/firstrun/sync/sync-devices-icons-anim.svg') bottom center no-repeat;
         line-height: 1.5;
         margin: 0 auto 40px;
         max-width: 350px;
+        padding-bottom: 210px;
     }
 
     a {
