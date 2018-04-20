@@ -338,6 +338,7 @@ STATICFILES_FINDERS = (
 )
 STATICFILES_DIRS = (
     path('media'),
+    path('node_modules/@mozilla-protocol/core')
 )
 
 PIPELINE = {
